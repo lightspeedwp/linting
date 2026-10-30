@@ -1,6 +1,6 @@
 ---
 name: yaml-linting
-description: Expert in YAML and JSON linting using Spectral and actionlint for GitHub Actions workflows. Debug GitHub Actions workflow validation, fix YAML syntax errors, configure JSON/YAML rules, and troubleshoot CI/CD pipeline issues. Use this when the user mentions GitHub Actions errors, workflow validation, YAML syntax problems, CI/CD failures, or asks "why is my workflow failing?" Also use for workflow step errors, action parameter issues, or GitHub Actions configuration — even if they don't explicitly name a validation tool.
+description: Expert in YAML and JSON linting using Spectral and actionlint for GitHub Actions workflows. Debug GitHub Actions workflow validation, fix YAML syntax errors, configure JSON/YAML rules, and troubleshoot CI/CD pipeline issues. Use this when the user mentions GitHub Actions errors, workflow validation, YAML syntax problems, "Invalid character", "Field is not defined", "Unknown action", CI/CD failures, ".github/workflows", GitHub workflow syntax, actionlint errors, workflow indentation issues, or asks "why is my workflow failing?" or "how do I fix this GitHub Actions error?" Also use for workflow step errors, action parameter issues, GitHub Actions configuration, workflow caching, GitHub Actions secrets, status checks, branch protection rules, or CI/CD pipeline debugging — even if they don't explicitly name a validation tool. Trigger on any GitHub Actions question, workflow error, or CI/CD pipeline issue.
 ---
 
 # YAML Linting Skill

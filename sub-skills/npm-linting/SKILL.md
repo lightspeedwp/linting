@@ -1,6 +1,6 @@
 ---
 name: npm-linting
-description: Expert in npm package.json linting and npm dependency validation. Debug package.json issues, validate structure, fix dependency conflicts, and optimize npm configurations for WordPress block themes and plugins. Use this when the user mentions package.json errors, npm warnings, dependency issues, version conflicts, npm audit failures, or asks "why is npm failing?" Also use for npm scripts problems, missing dependencies, or npm configuration optimization — even if they don't explicitly name a validation tool.
+description: Expert in npm package.json linting and npm dependency validation. Debug package.json issues, validate structure, fix dependency conflicts, and optimize npm configurations for WordPress block themes and plugins. Use this when the user mentions package.json errors, npm warnings, dependency issues, version conflicts, npm audit failures, "cannot find module", "peer dependency", "npm ERR!", npm install failures, "ERESOLVE unable to resolve dependency", npm version mismatches, conflicting ESLint versions, or asks "why is npm failing?" or "how do I fix this npm error?" Also use for npm scripts problems, missing dependencies, dependency tree analysis, npm security audits, npm configuration optimization, WordPress wp-scripts setup, or npm package validation — even if they don't explicitly name a validation tool. Trigger on any npm-related error or question.
 ---
 
 # npm Linting Skill
