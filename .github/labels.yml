@@ -1,0 +1,130 @@
+# GitHub Labels for the Linting Skill
+# Auto-label issues and PRs using GitHub Actions
+
+labels:
+  # Type labels
+  - name: bug
+    color: 'd73a49'
+    description: 'Something is not working as expected'
+
+  - name: enhancement
+    color: 'a2eeef'
+    description: 'New feature or improvement'
+
+  - name: documentation
+    color: '0075ca'
+    description: 'Improvements or additions to documentation'
+
+  - name: refactor
+    color: 'fbca04'
+    description: 'Code restructuring without behavior changes'
+
+  - name: test
+    color: '5319e7'
+    description: 'Test-related changes or additions'
+
+  # Status labels
+  - name: 'status: triage'
+    color: 'ededed'
+    description: 'Awaiting triage and initial review'
+
+  - name: 'status: in-progress'
+    color: '1f6feb'
+    description: 'Currently being worked on'
+
+  - name: 'status: blocked'
+    color: 'f2cc60'
+    description: 'Blocked by another issue or dependency'
+
+  - name: 'status: ready-for-review'
+    color: '8be4d2'
+    description: 'Ready for code review'
+
+  # Priority labels
+  - name: 'priority: critical'
+    color: 'b91c1c'
+    description: 'Urgent fix needed'
+
+  - name: 'priority: high'
+    color: 'd97706'
+    description: 'High priority'
+
+  - name: 'priority: medium'
+    color: 'f59e0b'
+    description: 'Medium priority'
+
+  - name: 'priority: low'
+    color: '10b981'
+    description: 'Low priority, can wait'
+
+  # Tool-specific labels
+  - name: 'tool: eslint'
+    color: '4b32c3'
+    description: 'Related to ESLint'
+
+  - name: 'tool: prettier'
+    color: 'f7b500'
+    description: 'Related to Prettier'
+
+  - name: 'tool: phpstan'
+    color: '777bb4'
+    description: 'Related to PHPStan'
+
+  - name: 'tool: github-actions'
+    color: '2088ff'
+    description: 'Related to GitHub Actions / YAML workflows'
+
+  - name: 'tool: markdownlint'
+    color: '083fa1'
+    description: 'Related to markdownlint'
+
+  - name: 'tool: npm'
+    color: 'cb3837'
+    description: 'Related to npm / package.json'
+
+  # Area labels
+  - name: 'area: wordpress'
+    color: '00a0d2'
+    description: 'WordPress-specific feature or issue'
+
+  - name: 'area: sub-skills'
+    color: '6f42c1'
+    description: 'Affects sub-skills'
+
+  - name: 'area: ci-cd'
+    color: '239e46'
+    description: 'CI/CD pipeline related'
+
+  - name: 'area: git-hooks'
+    color: 'f37726'
+    description: 'Lefthook or pre-commit related'
+
+  # Help labels
+  - name: 'help wanted'
+    color: '1ae6b1'
+    description: 'Help from the community wanted'
+
+  - name: 'good first issue'
+    color: '7057ff'
+    description: 'Good issue for newcomers'
+
+  - name: 'question'
+    color: 'd876e3'
+    description: 'Question or discussion'
+
+  # Other labels
+  - name: 'breaking-change'
+    color: 'ff0000'
+    description: 'Breaking change in the API or behavior'
+
+  - name: 'dependencies'
+    color: '0366d6'
+    description: 'Updates to dependencies'
+
+  - name: 'duplicate'
+    color: 'cfd3d7'
+    description: 'Duplicate of another issue'
+
+  - name: 'wontfix'
+    color: 'ffffff'
+    description: 'This will not be worked on'
