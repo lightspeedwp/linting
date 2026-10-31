@@ -48,6 +48,9 @@ Quick navigation guide for the linting skill documentation.
 | **CI-CD.md** | 600 lines | GitHub Actions workflows | Quick start, full examples, caching, coverage, PHP linting |
 | **TROUBLESHOOTING.md** | 456 lines | Problem solving | 30+ common issues with solutions across all tools |
 | **LEFTHOOK.md** | 371 lines | Git hooks automation | Installation, config, hook types, usage patterns |
+| **IMPLEMENTATION_SEQUENCE.md** | ~200 lines | Optimization roadmap | 3-phase optimization plan, success criteria, validation |
+| **BUILD_SUMMARY.md** | ~200 lines | Project overview | Features, structure, testing, deployment status |
+| **DEPLOYMENT_READY.md** | ~250 lines | Release readiness | Deployment checklist, verification steps, go-live guide |
 
 ## When to Use Sub-Skills
 
