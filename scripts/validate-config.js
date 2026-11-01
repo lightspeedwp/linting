@@ -29,7 +29,7 @@ const validators = {
       } catch (e) {
         return { valid: false, error: e.message };
       }
-    }
+    },
   },
 
   prettier: {
@@ -44,7 +44,7 @@ const validators = {
       } catch (e) {
         return { valid: false, error: e.message };
       }
-    }
+    },
   },
 
   markdownlint: {
@@ -59,7 +59,7 @@ const validators = {
       } catch (e) {
         return { valid: false, error: e.message };
       }
-    }
+    },
   },
 
   packageJson: {
@@ -69,20 +69,26 @@ const validators = {
         const pkg = JSON.parse(content);
         const issues = [];
 
-        if (!pkg.name) issues.push('Missing "name" field');
-        if (!pkg.version) issues.push('Missing "version" field');
-        if (!pkg.scripts) issues.push('Missing "scripts" field');
+        if (!pkg.name) {
+          issues.push('Missing "name" field');
+        }
+        if (!pkg.version) {
+          issues.push('Missing "version" field');
+        }
+        if (!pkg.scripts) {
+          issues.push('Missing "scripts" field');
+        }
 
         return {
           valid: issues.length === 0,
           format: 'JSON',
-          issues: issues.length > 0 ? issues : undefined
+          issues: issues.length > 0 ? issues : undefined,
         };
       } catch (e) {
         return { valid: false, error: e.message };
       }
-    }
-  }
+    },
+  },
 };
 
 function findConfigFile(files) {
@@ -117,7 +123,7 @@ function validateConfig(tool) {
       console.log(`✅ ${tool}: Config valid (${result.format})`);
       console.log(`   File: ${path.relative(projectRoot, configPath)}`);
       if (result.issues) {
-        result.issues.forEach(issue => console.log(`   ⚠️  ${issue}`));
+        result.issues.forEach((issue) => console.log(`   ⚠️  ${issue}`));
       }
       return true;
     } else {

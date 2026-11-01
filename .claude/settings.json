@@ -8,12 +8,7 @@
     "framework": "claude-skills"
   },
   "permissions": {
-    "allow": [
-      "npm",
-      "git",
-      "bash",
-      "node"
-    ]
+    "allow": ["npm", "git", "bash", "node"]
   },
   "hooks": {
     "pre-commit": "npm run lint && npm test",
